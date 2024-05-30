@@ -1,0 +1,513 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* index */
+body {
+  background-image: url(../assets/luz-brillante-escenario-ilumina-entusiastas-fanaticos-rock-generados-ia.jpg);
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  align-content: center;
+  scrollbar-color: #c4c4c4 transparent;
+  scrollbar-width: thin;
+  background: 1;
+}
+
+.home-top {
+  background-color: #000;
+}
+
+.logo {
+  color: #fff;
+  font-size: 45px;
+  text-decoration: none;
+}
+.logo a {
+  color: #fff;
+  font-size: 45px;
+  transform: scale(1.02);
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-nav-link {
+  list-style: none;
+  display: block;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  justify-content: space-between;
+}
+.navbar-nav a {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+.navbar-nav ul {
+  align-items: center;
+}
+
+.navbar-nav a:hover {
+  font-weight: 800;
+  color: orange;
+  transition: 0.5s;
+}
+
+h1 {
+  display: flex;
+  font-family: fantasy;
+  color: #fff;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 30px;
+  text-shadow: 10px 5px 5px #000;
+  animation: izquierda-derecha 2s 1;
+}
+
+@keyframes izquierda-derecha {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+h2 {
+  display: flex;
+  font-family: fantasy;
+  color: #fff;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  text-shadow: 10px 5px 5px #000;
+}
+
+h3 {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4196078431);
+}
+
+.carousel-inner {
+  width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item:hover {
+  background-color: #2a2a2a;
+}
+
+.card, .card-proximos, .carousel-item {
+  font-size: 18px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.6862745098);
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+.card-img-top:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+.card:hover, .card-proximos:hover, .carousel-item:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+  transition: 1s;
+}
+
+.card-date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-proximos-button {
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: #fff;
+  font-weight: 800;
+  transition: 1s;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  padding: 5px 8%;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  margin-top: auto;
+  position: relative;
+  max-width: 100%;
+}
+
+footer a {
+  padding: 0;
+  margin: 0;
+}
+
+footer a:hover {
+  color: #fff;
+  font-weight: 500;
+}
+
+footer .website-logo {
+  margin-bottom: 1.2rem;
+  font-size: calc(1vw + 20px);
+  margin-top: 10px;
+}
+
+.footer-info, .menu-item-footer {
+  margin: 0.2rem 0;
+  opacity: 0.7;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.menu-item-footer:hover {
+  opacity: 1;
+}
+
+.footer-content-container {
+  display: flex;
+}
+
+.menu-title {
+  font-size: var(--medium-text-font);
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer-content-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-container {
+  height: fit-content;
+  width: 100%;
+  padding: 3rem 6rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.footer-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.copyright-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*MEDIA QUERY FOOTER*/
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 1.5rem;
+    flex-direction: column;
+    height: 50px;
+    bottom: 0;
+  }
+  .footer-content-container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #2a2a2a;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-content-container:nth-of-type(1) {
+    align-items: flex-start;
+  }
+  .footer-content-container:nth-of-type(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .footer-menus {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .footer-menus .footer-content-container:nth-of-type(1) {
+    width: 45%;
+    align-items: flex-start;
+    border-bottom: none;
+  }
+  .footer-menus .footer-content-container:nth-of-type(2) {
+    width: 45%;
+    align-items: flex-start;
+    border-bottom: none;
+  }
+}
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 2rem;
+    flex-direction: column;
+    height: 30px;
+    bottom: 0;
+    height: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .footer-container {
+    padding: 2rem;
+    flex-direction: column;
+    height: 50px;
+    bottom: 0;
+  }
+}
+/*FIN MEDIA QUERY FOOTER*/
+/* inicio media nav a */
+@media only screen and (min-width: 280px) {
+  .navbar-nav ul li a {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    padding-top: 10px;
+  }
+}
+@media only screen and (min-width: 812px) {
+  .nav-link-white {
+    font-size: 18px;
+    margin: 7px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .navbar-nav ul li a {
+    font-size: 28px;
+    margin: 10px;
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 850px) {
+  .navbar-nav a {
+    font-size: 15px;
+    justify-content: center;
+    display: block;
+  }
+}
+/* fin media nav a */
+@media only screen and (max-width: 575px) {
+  .logo a {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 850px) {
+  .logo a {
+    font-size: 25px;
+  }
+  .logo {
+    font-size: 25px;
+  }
+}
+/* media card title */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .card-title {
+    font-size: 18px;
+  }
+  .card-date {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .card-title {
+    font-size: 15px;
+  }
+  .card-date {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+  .carousel-inner {
+    width: 330px;
+    height: 280px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 500px) {
+  .carousel-inner {
+    width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .carousel-inner {
+    width: 500px;
+    height: auto;
+  }
+}
+/* pagina uno */
+.p-pag-uno {
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.mapa-rockarena {
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+  border-radius: 5px;
+  background-color: rgba(12, 12, 12, 0.2823529412);
+  width: auto;
+  height: 500px;
+  border-radius: solid #2d2d2d 10px;
+  padding: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .p-pag-uno {
+    font-size: 15px;
+  }
+}
+/* fin pagina uno */
+/* FIN PAGINA DOS */
+.contenedor-pnombres-cartelera {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pnombres-cartelera {
+  font-family: fantasy;
+  text-decoration: underline;
+  display: inline-flex;
+  text-align: right;
+  width: 16%;
+  padding: 1%;
+  background-color: #000;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 30px;
+}
+
+/* FIN PAGINA DOS */
+/* PAGINA TRES-CUATRO */
+form {
+  position: absolute;
+  min-width: 280px;
+  max-width: 25%;
+  width: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.341);
+  background-color: rgba(5, 1, 1, 0.734);
+  backdrop-filter: blur(1rem);
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+}
+
+h1::after {
+  position: absolute;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  width: 120px;
+  left: 0;
+  bottom: 0;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 5px 6px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+}
+
+.acuerdo {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(93, 91, 91, 0.5882352941);
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1200px) {
+  form {
+    width: 450px;
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

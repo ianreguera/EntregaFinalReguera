@@ -1,0 +1,8 @@
+1-Optimize las imagenes con tinypng.
+2-Aplique variables, anidaciones, extend y animaciones al archivo .scss.
+3-Aplique las etiquetas <meta> keyword y description.
+4-Corregi los espacios que tenia en los nombres de las imagenes.
+5-Verifique que no haya errores de tipeo y ortografia.
+6-Agregue un carousel y arregle el responsive de las cards de la cartelera entre otras cosas.
+7-agregue un carousel y un menu hamburguesa.
+8-implemente las correcciones de la etrega pasada.
